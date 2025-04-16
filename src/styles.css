@@ -34,6 +34,10 @@ body::before {
     height: 90vh;
 }
 
+.titulos{
+    height: 10% !important;
+}
+
 h1 {
     font-size: 26px;
     margin-bottom: -15px;
@@ -45,8 +49,8 @@ h2 {
 }
 
 .avatar_image {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -55,8 +59,11 @@ h2 {
 }
 
 .avatar_container {
-    margin-bottom: 20px;
     position: relative;
+    height: 60% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Efeito de ondas pulsando atrás do avatar */
@@ -65,8 +72,8 @@ h2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     background-color: rgba(0, 200, 81, 0.6);
     border-radius: 50%;
     animation: pulse-blur 1.7s ease-in-out alternate infinite;
